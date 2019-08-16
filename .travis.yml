@@ -6,7 +6,7 @@ matrix:
   - php: '7.1'
     env: SWOOLE_VERSION="6b6c5cc7b6cb2881ed6a9f9184073584c094e785"
   - php: '7.1'
-    env: SWOOLE_VERSION="4048bbe59b595c1a80f56a30e0e2ae6205d76168"
+    env: SWOOLE_VERSION="master"
 
 services:
   - redis-server
