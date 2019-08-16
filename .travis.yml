@@ -4,31 +4,25 @@ language: php
 matrix:
   include:
   - php: '7.1'
-    env: SWOOLE_VERSION="v4.3.6"
-  - php: '7.2'
-    env: SWOOLE_VERSION="v4.3.6"
-  - php: '7.3'
-    env: SWOOLE_VERSION="v4.3.6"
+    env: SWOOLE_VERSION="d8db332335e5d14b561b7fa28715b972708e1a87"
   - php: '7.1'
-    env: SWOOLE_VERSION="master"
-  - php: '7.2'
-    env: SWOOLE_VERSION="master"
-  - php: '7.3'
-    env: SWOOLE_VERSION="master"
-  - php: '7.4snapshot'
-    env: SWOOLE_VERSION="master" DISABLE_XDEBUG=false
-  - php: 'nightly'
-    env: SWOOLE_VERSION="master" DISABLE_XDEBUG=false INSTALL_REDIS_EXT=true
+    env: SWOOLE_VERSION="9fd4303bfe08e60b15d5c8843524ff1034d27ce9"
   - php: '7.1'
-    env: SWOOLE_VERSION="v4.4.3"
-  - php: '7.2'
-    env: SWOOLE_VERSION="v4.4.3"
-  - php: '7.3'
-    env: SWOOLE_VERSION="v4.4.3"
-  allow_failures:
-  - env: SWOOLE_VERSION="master"
-  - php: nightly
-  - php: 7.4snapshot
+    env: SWOOLE_VERSION="0197824bd411c2db30b22ba156e84df17da9bccb"
+  - php: '7.1'
+    env: SWOOLE_VERSION="a9d4b06c495f96577bc7af8aa58309f0a5a96b12"
+  - php: '7.1'
+    env: SWOOLE_VERSION="e66bf44d49a93366efc9a7f80e5657c5b1e0310f"
+  - php: '7.1'
+    env: SWOOLE_VERSION="394dc288c0e1e70052a506586e84bce8a81b096f"
+  - php: '7.1'
+    env: SWOOLE_VERSION="6cfeea3450aae02506d2fcdbf70ad482778772ae"
+  - php: '7.1'
+    env: SWOOLE_VERSION="3fe00ff33e984658dc9d3581a7768d39ff97b83b"
+  - php: '7.1'
+    env: SWOOLE_VERSION="a8bee4680c296f63b99042e4dc98d06fc6ade212"
+  - php: '7.1'
+    env: SWOOLE_VERSION="95d68e158b81c3a58b8047cc6044289490c481c2"
 
 services:
   - redis-server
