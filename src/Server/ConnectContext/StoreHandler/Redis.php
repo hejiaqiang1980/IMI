@@ -138,10 +138,7 @@ class Redis implements IHandler
             });
             AtomicManager::wakeup('imi.ConnectContextRedisLock', Worker::getWorkerNum());
         }
-        else
-        {
-            AtomicManager::wait('imi.ConnectContextRedisLock');
-        }
+        AtomicManager::wait('imi.ConnectContextRedisLock');
     }
 
     /**
