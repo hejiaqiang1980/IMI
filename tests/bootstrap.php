@@ -128,11 +128,11 @@ function startServer()
         //     'stop'          => __DIR__ . '/unit/WebSocketServer/bin/stop.sh',
         //     'checkStatus'   => 'checkWebSocketServerStatus',
         // ],
-        'TCPServer'    =>  [
-            'start'         => __DIR__ . '/unit/TCPServer/bin/start.sh',
-            'stop'          => __DIR__ . '/unit/TCPServer/bin/stop.sh',
-            'checkStatus'   => 'checkTCPServerStatus',
-        ],
+        // 'TCPServer'    =>  [
+        //     'start'         => __DIR__ . '/unit/TCPServer/bin/start.sh',
+        //     'stop'          => __DIR__ . '/unit/TCPServer/bin/stop.sh',
+        //     'checkStatus'   => 'checkTCPServerStatus',
+        // ],
         'UDPServer'    =>  [
             'start'         => __DIR__ . '/unit/UDPServer/bin/start.sh',
             'stop'          => __DIR__ . '/unit/UDPServer/bin/stop.sh',
