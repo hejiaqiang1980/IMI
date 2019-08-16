@@ -9,10 +9,10 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Components">
+        <!-- <testsuite name="Components">
             <directory>unit/Component/Tests</directory>
             <file>*.php</file>
-        </testsuite>
+        </testsuite> -->
         <testsuite name="HttpServer">
             <directory>unit/HttpServer/Tests</directory>
             <file>*.php</file>
