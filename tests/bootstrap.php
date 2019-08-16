@@ -133,11 +133,11 @@ function startServer()
         //     'stop'          => __DIR__ . '/unit/TCPServer/bin/stop.sh',
         //     'checkStatus'   => 'checkTCPServerStatus',
         // ],
-        'UDPServer'    =>  [
-            'start'         => __DIR__ . '/unit/UDPServer/bin/start.sh',
-            'stop'          => __DIR__ . '/unit/UDPServer/bin/stop.sh',
-            'checkStatus'   => 'checkUDPServerStatus',
-        ],
+        // 'UDPServer'    =>  [
+        //     'start'         => __DIR__ . '/unit/UDPServer/bin/start.sh',
+        //     'stop'          => __DIR__ . '/unit/UDPServer/bin/stop.sh',
+        //     'checkStatus'   => 'checkUDPServerStatus',
+        // ],
     ];
     
     foreach($servers as $name => $options)
