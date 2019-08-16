@@ -123,11 +123,11 @@ function startServer()
             'stop'          => __DIR__ . '/unit/RedisSessionServer/bin/stop.sh',
             'checkStatus'   => 'checkRedisSessionServerStatus',
         ],
-        // 'WebSocketServer'    =>  [
-        //     'start'         => __DIR__ . '/unit/WebSocketServer/bin/start.sh',
-        //     'stop'          => __DIR__ . '/unit/WebSocketServer/bin/stop.sh',
-        //     'checkStatus'   => 'checkWebSocketServerStatus',
-        // ],
+        'WebSocketServer'    =>  [
+            'start'         => __DIR__ . '/unit/WebSocketServer/bin/start.sh',
+            'stop'          => __DIR__ . '/unit/WebSocketServer/bin/stop.sh',
+            'checkStatus'   => 'checkWebSocketServerStatus',
+        ],
         // 'TCPServer'    =>  [
         //     'start'         => __DIR__ . '/unit/TCPServer/bin/start.sh',
         //     'stop'          => __DIR__ . '/unit/TCPServer/bin/stop.sh',
