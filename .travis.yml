@@ -4,6 +4,18 @@ language: php
 matrix:
   include:
   - php: '7.1'
+    env: SWOOLE_VERSION="42fc954400a069a7c697ae3cef30e804faf17d4a"
+  - php: '7.1'
+    env: SWOOLE_VERSION="0d68234241b86ebc50cfdf3c7cb571c6609f0bbc"
+  - php: '7.1'
+    env: SWOOLE_VERSION="47c3c90a6c48e463b6e065f092df2811853a46d9"
+  - php: '7.1'
+    env: SWOOLE_VERSION="f4bfe785e7e73e5e315c46b12d567a4d9ef02b62"
+  - php: '7.1'
+    env: SWOOLE_VERSION="b3b9c753eff5394433ab395fae3740c3d50e0637"
+  - php: '7.1'
+    env: SWOOLE_VERSION="8a540d8ba0a70396539dffbf056b4012f39c0555"
+  - php: '7.1'
     env: SWOOLE_VERSION="d8db332335e5d14b561b7fa28715b972708e1a87"
   - php: '7.1'
     env: SWOOLE_VERSION="9fd4303bfe08e60b15d5c8843524ff1034d27ce9"
