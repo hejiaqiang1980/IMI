@@ -4,21 +4,9 @@ language: php
 matrix:
   include:
   - php: '7.1'
-    env: SWOOLE_VERSION="a8d92fcba8d276cb5083a888f60d021b84d98775"
-  - php: '7.1'
-    env: SWOOLE_VERSION="ba159e64729f117da0781d3f3c5eac0d533d3fb3"
-  - php: '7.1'
-    env: SWOOLE_VERSION="c6af70405081c4752059b546a4364cacf042b5e4"
-  - php: '7.1'
-    env: SWOOLE_VERSION="40b161803ab9268df7edc7eabc8f5627da4d6660"
-  - php: '7.1'
-    env: SWOOLE_VERSION="89227aeeb63b3b51de7af690bca59854364f34dd"
-  - php: '7.1'
-    env: SWOOLE_VERSION="c57b6c7bc51e25b43578ef83538b16bb755009fc"
-  - php: '7.1'
-    env: SWOOLE_VERSION="92bf3cfd653bc04aaee1390f8e556387450d9efc"
-  - php: '7.1'
     env: SWOOLE_VERSION="6b6c5cc7b6cb2881ed6a9f9184073584c094e785"
+  - php: '7.1'
+    env: SWOOLE_VERSION="4048bbe59b595c1a80f56a30e0e2ae6205d76168"
 
 services:
   - redis-server
